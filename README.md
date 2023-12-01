@@ -16,5 +16,5 @@ I'm using python, so a few notes:
 > 3. In the inspector, navigate to the storage. In Firefox, this is under the storage tab. In Chrome, it's under application (I think) and if you're using a different browser, I'm sure a quick search can help you out.  
 > 4. In the storage, navigate to the cookie field. In the table you will find "session", and from there you need to get the "value" out. Double click the big token string under value and copy it.  
 > 5. Now go to the code files. Open getdata.py and paste the token string you copied from your browser into the quotes next to cookie, setting cookie equal to that value.  
-> 6. Now the code should be prepped to run. Run the python file you want!  
-> 7.   
+> 6. Now the code should be prepped to run. Run the python file you want!
+>    
