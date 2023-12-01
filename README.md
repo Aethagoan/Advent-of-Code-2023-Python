@@ -6,7 +6,7 @@ I'm using python, so a few notes:
 > [!NOTE]
 > my solutions requires the use of the requests library because I'm pulling the puzzle input right from the website with the code, so after installing a recent version of python (needs to be 3.7+ I think), you're going to need to do  
 > `pip install requests`  
-> that should be it though, and should work out of the box otherwise! Well, except one more thing:  
+> in a command terminal. That should be it though, and should work out of the box otherwise! Well, except one more thing:  
 >  
   
 > [!IMPORTANT]
