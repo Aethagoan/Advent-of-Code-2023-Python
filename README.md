@@ -13,8 +13,9 @@ I'm using python, so a few notes:
 > for the code to work properly, you need to have an account with advent of code, and then you have to pull the cookie value out of your storage in the browser and put it into the code here's how:  
 > 1. Get onto the advent of code website.  
 > 2. From there, inspect the page.  
-> 3. In the inspector, navigate to the storage. In Firefox, this is under the storage tab. In Chrome, it's under application (I think) and if you're using a different browser, I'm sure a quick search can help you out.  
-> 4. In the storage, navigate to the cookie field. In the table you will find "session", and from there you need to get the "value" out. Double click the big token string under value and copy it.  
-> 5. Now go to the code files. Open getdata.py and paste the token string you copied from your browser into the quotes next to cookie, setting cookie equal to that value.  
-> 6. Now the code should be prepped to run. Run the python file you want!
+> 3. In the inspector, navigate to the Network Tab.
+> 4. If you don't see anything under the network tab, refresh the page. You should now be able to find a get request, and it should be at the top of the list. Click into it, scroll down in the headers tab and find Cookie:
+> 5. Next to that, there should be a session="averylongstringthatisyourtokenbutnotthistext". Copy that string!
+> 6. Now go to the code files. Open getdata.py and paste the token string you copied from your browser into the quotes next to cookie, setting cookie equal to that value.  
+> 7. Now the code should be prepped to run. Run the python file you want!
 >    
