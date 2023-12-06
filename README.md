@@ -3,6 +3,7 @@
   
 Hello, you!  
 When each next puzzle comes out, I'll publish my solve for the last day here!  
+(given I have solved the next day first)  
 I'm using python, so a few notes:  
   
 > [!NOTE]
